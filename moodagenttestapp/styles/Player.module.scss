@@ -1,0 +1,10 @@
+.player {
+  align-items: center;
+  @media (min-width: 769px) {
+    background-image: url("../public/assets/Desktop_app_background.png");
+    img {
+      height: fit-content;
+      max-width: 300px;
+    }
+  }
+}
