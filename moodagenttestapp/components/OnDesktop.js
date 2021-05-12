@@ -1,16 +1,13 @@
 import styles from "../styles/Home.module.scss";
-import gettingStartedStyles from "../styles/GettingStarted.module.scss";
+import onDesktopStyles from "../styles/OnDesktop.module.scss";
 
-export default function GettingStartedComponent() {
+export default function OnDesktopComponent() {
   return (
     <div
-      className={`content__item ${styles.contentItem} ${gettingStartedStyles.gettingStarted}`}
+      className={`content__item ${styles.contentItem} ${onDesktopStyles.onDesktop}`}
     >
-      <div className={`${gettingStartedStyles.listWrapper}`}>
-        <h1>Getting started</h1>
-        <h2>
-          Moodagent on <span className="highlight">mobile:</span>
-        </h2>
+      <div className={`${onDesktopStyles.listWrapper}`}>
+        <h2>Moodagent on desktop:</h2>
 
         <ul>
           <li className="list-item">

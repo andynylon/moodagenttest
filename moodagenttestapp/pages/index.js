@@ -3,6 +3,7 @@ import Image from "next/image";
 import MenuComponent from "../components/Menu";
 import HeroComponent from "../components/Hero";
 import GettingStartedComponent from "../components/GettingStarted";
+import OnDesktopComponent from "../components/OnDesktop";
 import PlayerComponent from "../components/Player";
 import styles from "../styles/Home.module.scss";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <HeroComponent></HeroComponent>
         <GettingStartedComponent></GettingStartedComponent>
         <PlayerComponent></PlayerComponent>
+        <OnDesktopComponent></OnDesktopComponent>
 
         <div className={`content__item ${styles.contentItem}`}></div>
         <div

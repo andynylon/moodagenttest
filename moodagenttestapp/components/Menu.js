@@ -30,10 +30,6 @@ export default function MenuComponent(props) {
         </div>
         <div className="menu__bar__column"></div>
       </div>
-      {/* <div className={"menu__bar menu__bar--mobile"}>
-        <div className="menu__bar__column">Logo</div>
-        <div className="menu__bar__column">Burger</div>
-      </div> */}
     </div>
   );
 }
